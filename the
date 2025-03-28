@@ -1,5 +1,6 @@
 mkdir /tmp/Backup
-cp *.py &.c Backup
+cp *.py Backup
+cp *.c Backup
 cd tmp
 tar -czvf Backup-2025-03-28.tar.gz Backup
 udisksctl mount -b /dev/sda1
